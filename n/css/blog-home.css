@@ -6,3 +6,7 @@
 body {
   padding-top: 56px;
 }
+.navbar  {
+  background-color: turquoise !important;
+}
+/* navbar-expand-lg navbar-dark bg-dark fixed-top */
