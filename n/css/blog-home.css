@@ -3,6 +3,39 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-home/blob/master/LICENSE)
  */
-body {
-  padding-top: 56px;
+:root {
+  --green1: #14A94D;
+  --green2: #14A998;
+  --green3: #26A914;
+  --a: #020f01;
+  --b: #1a4709;
+  --c: #4e7934;
+  --d: #89b4ad;
 }
+
+body {
+ padding-top: 56px;
+ background-color: #f0f0f0;
+}
+
+.bg-green {
+  background-color: var(--green1);
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.btn-green {
+  border-radius: 0;
+  border-color: var(--green1);
+
+  background-color: var(--green1);
+}
+.btn-green:hover {
+  border-color: var(--green3);
+  background-color: var(--green3);
+}
+
+
